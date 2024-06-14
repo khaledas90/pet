@@ -1,0 +1,50 @@
+.Clients {
+  padding: 70px 0;
+  background-color: var(--blue);
+  position: relative;
+}
+.Clients .container .title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+.Clients .card h6 {
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Clients .card .date p {
+  color: #b3b3b3;
+}
+.Clients .card .card-text {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+.Clients .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(to top, var(--blue), transparent);
+}
+.Clients .btnClient {
+  padding: 4px 28px;
+  border-radius: 50px;
+  background-color: var(--white);
+  color: var(--blue);
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: -25px;
+}
+.Clients .btnClient img {
+  background-color: var(--blue);
+  border-radius: 50px;
+  margin-left: 25px;
+  padding: 5px;
+  margin-right: -23px;
+}

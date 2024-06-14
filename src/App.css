@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Text", Helvetica Neue, Arial, sans-serif;
+}
+
+:root {
+  --blue: #183dff;
+  --white: #ffffff;
+  --light: #d5d5d5;
+  --dark: #000;
+}
+
+.app {
+  background-color: var(--blue);
+}
+a {
+  text-decoration: none !important;
+}
+.headerDetailsPage {
+  background-color: #3051ff;
+}
+.headerDetailsPage a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  margin-right: 10px;
+}
+.iconDetailPage {
+  margin-right: 10px;
+}
+.headerDetailsPage p {
+  margin-right: 10px;
+  font-size: 25px;
+
+  color: #ffc107;
+}

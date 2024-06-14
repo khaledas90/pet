@@ -1,0 +1,111 @@
+.Contact {
+  padding: 70px 0;
+  background-color: var(--blue);
+}
+
+.Contact .container {
+  background-color: #3051ff;
+  border-radius: 20px;
+}
+
+.Contact .info-section {
+  padding: 37px 25px;
+}
+.Contact .info-section p {
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 600;
+}
+.Contact .contactMail {
+  color: var(--white);
+  margin-top: 120px;
+  font-size: 20px;
+}
+
+.Contact .contactMail img {
+  background-color: var(--white);
+  border-radius: 50px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.Contact .section-form {
+  background-color: var(--white);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.Contact .container .section-form form {
+  margin: 50px 0;
+}
+.Contact .form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+}
+
+.Contact .form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: var(--white);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.Contact .form__field::placeholder {
+  color: transparent;
+}
+.Contact .form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.Contact .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.Contact .form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, var(--blue), var(--blue));
+  border-image-slice: 1;
+}
+.Contact .form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.Contact .form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+.Contact .btnContact {
+  padding: 4px 19px;
+  border-radius: 50px;
+  background-color: var(--white);
+  color: var(--blue);
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.Contact .btnContact img {
+  background-color: var(--blue);
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 5px;
+  margin-right: -14px;
+}

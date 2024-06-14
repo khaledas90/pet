@@ -1,0 +1,144 @@
+/* navbar */
+
+.Navbar {
+  background-color: var(--blue);
+  padding: 47px 30px 16px 50px;
+}
+.Navbar .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Navbar .content .content-left {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar .content .content-left .content-right {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar h1 {
+  color: var(--white);
+  font-size: 39px;
+  font-weight: 800;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar h1 span {
+  margin-top: 0px;
+}
+
+.Navbar .nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.Navbar .nav ul {
+  display: flex;
+  margin-bottom: 0px !important;
+}
+.Navbar .nav ul li {
+  list-style: none;
+  margin-right: 4px;
+  color: var(--light);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+
+  transition: 0.4s all ease-in-out;
+}
+.Navbar .nav ul li a {
+  padding: 10px 7px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: var(--white);
+  position: relative;
+  transition: 0.4s all ease-in-out;
+}
+
+.Navbar .nav ul li:hover a {
+  color: var(--white);
+}
+
+.headBtn-one {
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 12px 32px;
+  margin-right: 10px;
+  background-color: transparent;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid var(--white) !important;
+  border: none;
+  transition: all 0.5s;
+}
+
+.headBtn-two {
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 12px 32px;
+  margin-right: 10px;
+  background-color: var(--white);
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  transition: all 0.5s;
+}
+.logo {
+  color: var(--white);
+}
+.OpenNave {
+  font-size: 32px;
+  margin-top: 2px;
+  margin-right: 15px;
+  padding-bottom: 6px;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.5s;
+  display: none;
+}
+.OpenNave:hover {
+  color: var(--white);
+}
+@media screen and (max-width: 989px) {
+  .OpenNave {
+    display: block;
+  }
+
+  .Navbar .nav ul {
+    position: absolute;
+    top: 115px;
+    left: 0px;
+    padding-top: 10px;
+    z-index: 111111;
+    background: var(--white);
+    width: 100%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    display: none;
+  }
+  .Navbar .nav ul li {
+    margin-left: 40px;
+    padding: 14px 0;
+    color: #000;
+    font-size: 14px;
+  }
+  .Navbar .nav ul li a {
+    color: var(--dark);
+  }
+  .Navbar .nav ul li:hover a {
+    color: var(--blue);
+  }
+  .headBtn,
+  .Navbar .content {
+    display: flex;
+  }
+}
